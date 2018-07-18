@@ -1,0 +1,51 @@
+#morphing {
+  padding: 20px;
+  position: relative;
+  margin-left: 20px; }
+
+#skillUp,
+#skillL,
+#skillLD,
+#skillRD,
+#skillR {
+  position: absolute;
+  transform: translateX(-50%);
+  font-family: "Roboto", sans-serif; }
+
+a {
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif; }
+
+#skillUp {
+  left: 160px;
+  top: -10px; }
+
+#skillL {
+  left: -10px;
+  top: 115px; }
+
+#skillLD {
+  left: 52px;
+  top: 305px; }
+
+#skillRD {
+  left: 268px;
+  top: 305px; }
+
+#skillR {
+  left: 330px;
+  top: 115px; }
+
+#star {
+  width: 290px; }
+
+.polymorph {
+  stroke: white; }
+
+span.grow:hover a {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5); }
+
+/*# sourceMappingURL=style.css.map */
